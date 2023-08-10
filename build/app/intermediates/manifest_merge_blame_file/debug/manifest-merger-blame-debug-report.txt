@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:4:2-77
+15-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:4:19-75
+16
+17    <application
+17-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:5:2-52:20
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/canardwc/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:7:3-37
+21        android:label="app" >
+21-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:6:3-22
+22        <provider
+23            android:name="androidx.core.content.FileProvider"
+24            android:authorities="com.example.app.com.shekarmudaliyar.social_share"
+25            android:exported="false"
+26            android:grantUriPermissions="true" >
+27            <meta-data
+28                android:name="android.support.FILE_PROVIDER_PATHS"
+29                android:resource="@xml/filepaths" />
+30        </provider>
+31
+32        <activity
+32-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:18:3-46:14
+33            android:name="com.example.app.MainActivity"
+33-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:19:4-32
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:22:4-154
+35            android:hardwareAccelerated="true"
+35-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:23:4-38
+36            android:launchMode="singleTop"
+36-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:20:4-34
+37            android:theme="@style/LaunchTheme"
+37-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:21:4-38
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:24:4-46
+39
+40            <!--
+41            Specifies an Android theme to apply to this Activity as soon as
+42				the Android process has started. This theme is visible to the user
+43				while the Flutter UI initializes. After that, this theme continues
+44			to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:29:4-32:6
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:30:5-60
+48                android:resource="@style/NormalTheme" />
+48-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:31:5-42
+49            <!--
+50            Displays an Android View that continues showing the launch screen
+51				Drawable until Flutter paints its first frame, then this splash
+52				screen fades out. A splash screen is useful to avoid any visual
+53				gap between the end of Android's launch screen and the painting of
+54			Flutter's first frame.
+55            -->
+56            <meta-data
+56-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:38:4-41:6
+57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+57-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:39:5-69
+58                android:resource="@drawable/launch_background" />
+58-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:40:5-51
+59
+60            <intent-filter>
+60-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:42:4-45:20
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:43:5-56
+61-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:43:13-54
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:44:5-64
+63-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:44:15-62
+64            </intent-filter>
+65        </activity>
+66        <!--
+67        Don't delete the meta-data below.
+68		This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:49:3-51:24
+71            android:name="flutterEmbedding"
+71-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:50:4-35
+72            android:value="2" />
+72-->/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/android/app/src/main/AndroidManifest.xml:51:4-21
+73    </application>
+74
+75</manifest>

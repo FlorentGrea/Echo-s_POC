@@ -1,0 +1,4 @@
+#Tue May 25 14:07:44 CEST 2021
+base.0=/Users/canardwc/Workspace/Echo/echo_front/flutter_echo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
